@@ -23,6 +23,13 @@ main{
   padding: 0 10px;
 
 }
+button{
+  background-color: $gray-dark;
+  color: $white;
+  border: 1px solid $black;
+  border-radius: 5px;
+  padding: 0.5;
+}
 header{
   margin-bottom: 2*$bottom-margin;
   width: $full;
@@ -33,16 +40,16 @@ header{
   background-size: cover;
   background-attachment: fixed;
 
-  & .content{
+  .content{
     margin: auto;
     text-align: center;
     color: $white;
   }
-  & h1{
+  h1{
     font-size: 6vmax;
   }
 
-  & h2{
+  h2{
     font-size: 3vmax;
   }
 }
