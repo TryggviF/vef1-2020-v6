@@ -3,6 +3,12 @@
 // liti, margin-bottom gildi sem eru sameiginleg
 $max-width: 1200px;
 $gutter: 20px;
+$anim : transform 300ms ease-in-out;
+$black: #000;
+$white: #eee;
+$gray: #999;
+$gray-light: #ccc;
+$gray-dark: #222;
 
 @mixin row(){
   display: flex;
