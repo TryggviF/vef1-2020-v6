@@ -1,0 +1,26 @@
+{
+  "name": "vef1-2020-v6",
+  "version": "1.0.0",
+  "description": "Pakkinn minn",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browser-sync": "browser-sync start --server",
+    "sass": "node-sass --source-map-embed styles.scss styles.css",
+    "sass-watch": "node-sass --source-map-embed --watch *.scss --recursive styles.css",
+    "dev": "concurrently npm:sass-watch npm:browser-sync"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TryggviF/vef1-2020-v6.git"
+  },
+  "author": "Tryggvi Freyr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TryggviF/vef1-2020-v6/issues"
+  },
+  "homepage": "https://github.com/TryggviF/vef1-2020-v6#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.12"
+  }
+}

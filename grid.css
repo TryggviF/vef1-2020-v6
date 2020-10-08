@@ -1,0 +1,65 @@
+.grid {
+  max-width: 1400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+/* almennar stærðir */
+
+.col {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+}
+
+.col-1 {
+  width: 8.333333333%;
+}
+
+.offset-col-1 {
+  margin-left: 8.333333333%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4{
+    width: 33.333333333%;
+}
+
+.col-12{
+    width: 100%;
+}
+
+
+/* medium—upp að 800px */
+@media(max-width: 799px) and (min-width: 500px){
+    .col-10m{
+        width: 83.333333333%;
+    }
+    .col-5m{
+        width: 41.666666667%;
+    }
+    .offset-col-1m {
+        margin-left: 8.333333333%;
+      }
+
+}
+
+/* small—upp að 500px */
+@media(max-width: 499px){
+    .col-10sm{
+        width: 83.333333333%;
+    }
+    .offset-col-1sm {
+        margin-left: 8.333333333%;
+      }
+}
