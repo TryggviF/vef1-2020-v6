@@ -7,26 +7,8 @@
   padding: 0;
 }
 
-body {
-  color: $gray-dark;
-  font-family: 'Open Sans', helvetica, arial, sans-serif;
-  font-size: 16px;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  font-family: 'Montaga', Georgia, serif;
-}
-
 a {
   color: $gray-dark;
-}
-
-main {
-  margin: 0 auto;
-  padding: 0 10px;
 }
 
 button {
@@ -38,16 +20,29 @@ button {
   transition: $anim;
   word-break: initial;
 
-  &:hover{
+  &:hover {
     background-color: $white;
     color: $black;
   }
 
-  &:active{
+  &:active {
     background-color: $gray-dark;
     border: 1px solid $black;
     color: $white;
   }
+}
+
+body {
+  color: $gray-dark;
+  font-family: 'Open Sans', helvetica, arial, sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Montaga', Georgia, serif;
 }
 
 header {
@@ -71,5 +66,15 @@ header {
 
   h2 {
     font-size: 3vmax;
+  }
+}
+
+main {
+  margin: 0 auto;
+  padding: 0 10px;
+
+  h2 {
+    margin-bottom: $bottom-margin;
+    padding: 0 0.5rem;
   }
 }
