@@ -2,5 +2,69 @@
 @import './config';
 // Allir stílar fyrir events
 .event {
+  display: flex;
+  height: $full;
+  position: relative;
+  transform: preserve-3d;
+  transition: $anim;
+  width: $full;
 
+  &:last-child {
+    margin-right: 0;
+  }
+
+  h3 {
+    margin-bottom: $bottom-margin;
+  }
+
+  p {
+    font-style: italic;
+    margin-bottom: $bottom-margin;
+  }
+
+  ul {
+    font-style: italic;
+    list-style: none;
+  }
+
+  .card {
+    display: flex;
+    height: $full;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: $anim;
+    width: $full;
+  }
+
+  .face {
+    backface-visibility: hidden;
+    padding: $std-padding;
+  }
+
+  .face.back {
+    transform: rotateY(180deg);
+  }
+
+  .front {
+    display: flex;
+    height: $full;
+    position: absolute;
+    width: $full;
+  }
+
+  &.front h3 {
+    font-size: 2em;
+    margin: auto;
+    text-align: center;
+  }
+
+  .back {
+    background-color: $gray-light;
+    display: flex;
+    flex-direction: justify;
+    height: $fill;
+    justify-content: space-between;
+    position: absolute;
+    width: $fill;
+  }
 }

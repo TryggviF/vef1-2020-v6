@@ -16,7 +16,7 @@ button {
   border: 1px solid $black;
   border-radius: 5px;
   color: $white;
-  padding: 0.5rem;
+  padding: $std-padding;
   transition: $anim;
   word-break: initial;
 
@@ -75,6 +75,6 @@ main {
 
   h2 {
     margin-bottom: $bottom-margin;
-    padding: 0 0.5rem;
+    padding: 0 $std-padding;
   }
 }
