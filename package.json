@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/TryggviF/vef1-2020-v6#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.12"
+    "browser-sync": "^2.26.12",
+    "stylelint-config-standard": "^20.0.0"
   }
 }
