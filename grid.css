@@ -42,13 +42,13 @@
 
 /* medium—upp að 800px */
 @media(max-width: 799px) and (min-width: 500px){
-    .col-10m{
+    .col-10-m{
         width: 83.333333333%;
     }
-    .col-5m{
+    .col-5-m{
         width: 41.666666667%;
     }
-    .offset-col-1m {
+    .offset-col-1-m {
         margin-left: 8.333333333%;
       }
 
@@ -56,10 +56,10 @@
 
 /* small—upp að 500px */
 @media(max-width: 499px){
-    .col-10sm{
+    .col-10-sm{
         width: 83.333333333%;
     }
-    .offset-col-1sm {
+    .offset-col-1-sm {
         margin-left: 8.333333333%;
       }
 }
