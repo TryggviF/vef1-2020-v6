@@ -1,3 +1,15 @@
 // Sækja config
 @import './config';
 // Allir stílar fyrir bækur
+.book {
+  align-items: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2*$bottom-margin;
+
+  & >.content {
+    background-color: $gray-light;
+    border: 1px solid $gray;
+
+  }
+}
