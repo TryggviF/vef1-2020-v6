@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "browser-sync": "browser-sync start --server",
+    "sass-nomap": "node-sass styles.scss styles.css",
     "sass": "node-sass --source-map-embed styles.scss styles.css",
     "sass-watch": "node-sass --source-map-embed --watch *.scss --recursive styles.css",
     "dev": "concurrently npm:sass-watch npm:browser-sync"
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/TryggviF/vef1-2020-v6#readme",
   "devDependencies": {
     "browser-sync": "^2.26.12",
+    "stylelint-config-sass-guidelines": "^7.1.0",
     "stylelint-config-standard": "^20.0.0"
   }
 }
