@@ -6,7 +6,6 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   height: calc(100% - 1rem);
   margin-bottom: $bottom-margin;
   width: $full;
@@ -21,7 +20,6 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 2*$bottom-margin;
     padding: $std-padding;
     word-break: break-word;
   }
