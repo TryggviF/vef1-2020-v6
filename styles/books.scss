@@ -5,9 +5,11 @@
   background-color: $gray-light;
   box-sizing: border-box;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  height: $full;
+  height: calc(100% - 1rem);
   margin-bottom: $bottom-margin;
+  width: $full;
 
   > .content {
     align-items: stretch;
