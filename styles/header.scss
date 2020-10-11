@@ -1,3 +1,26 @@
 // Sækja config
 @import './config';
 // Allir stílar fyrir haus
+header {
+  background-attachment: fixed;
+  background-image: url('/vef1-2020-v6/img/background.jpg');
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  margin-bottom: 2*$bottom-margin;
+  width: $full;
+
+  .content {
+    color: $white;
+    margin: auto;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 6vmax;
+  }
+
+  h2 {
+    font-size: 3vmax;
+  }
+}
