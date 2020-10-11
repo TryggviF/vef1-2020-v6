@@ -2,11 +2,15 @@
 @import './config';
 // Allir stílar fyrir events
 .event {
+  background-color: $gray-light;
+  box-sizing: border-box;
   display: flex;
-  height: $full;
-  position: relative;
-  transform: preserve-3d;
-  transition: $anim;
+  flex-direction: column;
+  height: calc(100% - 1rem);
+  justify-content: space-between;
+  margin-bottom: $bottom-margin;
+  min-height: 250px;
+  padding: $std-padding;
   width: $full;
 
   &:last-child {
@@ -36,6 +40,10 @@
     width: $full;
   }
 
+  &:hover .card {
+    transform: rotateY(180deg);
+  }
+
   .face {
     backface-visibility: hidden;
     padding: $std-padding;
@@ -52,7 +60,7 @@
     width: $full;
   }
 
-  &.front h3 {
+  .front h3 {
     font-size: 2em;
     margin: auto;
     text-align: center;
@@ -61,7 +69,7 @@
   .back {
     background-color: $gray-light;
     display: flex;
-    flex-direction: justify;
+    flex-direction: column;
     height: $full;
     justify-content: space-between;
     position: absolute;
